@@ -53,6 +53,7 @@ namespace DataTableCreator
         {
             public PropertyInfo PropertyInfo { get; set; }
             public DataColumnNameAttribute DataColumnName { get; set; }
+            public int Order { get; set; }
         }
 
     }
