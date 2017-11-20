@@ -43,7 +43,7 @@ namespace DataTableCreator
             return this;
         }
 
-        public DataTableCreator<T> AddRange(List<T> dataList)
+        public DataTableCreator<T> AddRange(IEnumerable<T> dataList)
         {
             foreach (var item in dataList)
                 Add(item);

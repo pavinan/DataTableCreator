@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Bharat.DataTableCreator</id>
+    <version>$version$</version>
+    <title>Bharat.DataTableCreator</title>
+    <authors>Bharat</authors>
+    <owners>Bharat</owners>
+    <projectUrl>https://github.com/pavinan/DataTableCreator</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Creates DataTable for class and adding rows.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>DataTable Class Map</tags>
+  </metadata>
+</package>
