@@ -43,6 +43,15 @@ namespace DataTableCreator
             return this;
         }
 
+        public DataTableCreator<T> AddRange(List<T> dataList)
+        {
+            foreach (var item in dataList)
+                Add(item);
+
+            return this;
+        }
+
+
         private void CreateDataTable()
         {
             foreach (var item in _propertyCache)

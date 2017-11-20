@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 
 namespace DataTableCreator.Tests
 {
@@ -27,8 +28,13 @@ namespace DataTableCreator.Tests
                 .Add(student)
                 .Add(student)
                 .Add(student)
-                .Add(student);
-
+                .Add(student)
+                .AddRange(new List<Student>
+                {
+                    student,
+                    student
+                });
+            
             var dt = tableCreator.GetDataTable();
         }
     }
