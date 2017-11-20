@@ -29,7 +29,7 @@ namespace DataTableCreator.Tests
                 .Add(student)
                 .Add(student)
                 .Add(student)
-                .AddRange(new List<Student>
+                .AddRange(new []
                 {
                     student,
                     student
