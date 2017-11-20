@@ -53,6 +53,12 @@
     <Compile Include="DeveloperTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataTableCreator\DataTableCreator.csproj">
+      <Project>{26a8567c-f229-420c-a143-fc9f06671795}</Project>
+      <Name>DataTableCreator</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

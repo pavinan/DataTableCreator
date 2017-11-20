@@ -21,6 +21,11 @@ namespace DataTableCreator
 
         }
 
+        public DataTable GetDataTable()
+        {
+            return _underlyingDataTable;
+        }
+
         public static DataTableCreator<T> GetCreator()
         {
             var creator = new DataTableCreator<T>();
