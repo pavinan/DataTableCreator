@@ -1,4 +1,7 @@
 # DataTableCreator
+[![Build status](https://ci.appveyor.com/api/projects/status/j375v8i3etemu43u/branch/master?svg=true)](https://ci.appveyor.com/project/pavinan/datatablecreator/branch/master)
+
+
 Creates datatable for a class.
 
 **Simple example**
