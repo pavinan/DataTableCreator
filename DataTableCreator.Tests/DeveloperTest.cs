@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
+using DataTableCreator.Attributes;
 
 namespace DataTableCreator.Tests
 {
@@ -44,6 +45,8 @@ namespace DataTableCreator.Tests
     public class Student
     {
         public string Id { get; set; }
+
+        [DataColumnName("RollNumber")]
         public int RNo { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
