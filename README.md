@@ -34,4 +34,18 @@ tableCreator
     });
 
 var dt = tableCreator.GetDataTable();
+
+
+public class Student
+{
+    public string Id { get; set; }
+
+    [DataColumnName("RollNumber")]
+    public int RNo { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string Address { get; set; }
+    public DateTime DOB { get; set; }
+}
+
 ```
