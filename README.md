@@ -1,5 +1,6 @@
 # DataTableCreator
 [![Build status](https://ci.appveyor.com/api/projects/status/j375v8i3etemu43u/branch/master?svg=true)](https://ci.appveyor.com/project/pavinan/datatablecreator/branch/master)
+[![Build Status](https://pavinan.visualstudio.com/Public/_apis/build/status/pavinan.DataTableCreator)](https://pavinan.visualstudio.com/Public/_build/latest?definitionId=11)
 
 Nuget link [https://www.nuget.org/packages/Bharat.DataTableCreator/](https://www.nuget.org/packages/Bharat.DataTableCreator/)
 
