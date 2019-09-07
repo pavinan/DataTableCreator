@@ -1,10 +1,16 @@
 name: CI
 
-on: [push, pull_request]:
-  # Sequence of patterns matched against refs/heads
-  branches:    
-    - master         # Push events on master branch
-    - 'releases/*'
+on: 
+  push:
+    # Sequence of patterns matched against refs/heads
+    branches:    
+      - master         # Push events on master branch
+      - 'releases/*'
+  pull_request:
+    # Sequence of patterns matched against refs/heads
+    branches:    
+      - master         # Push events on master branch
+      - 'releases/*'
 jobs:
   build:
     runs-on: windows-latest    
